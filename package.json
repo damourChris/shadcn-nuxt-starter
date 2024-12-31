@@ -1,6 +1,8 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "shadcn-nuxt-starter",
+  "description": "A Nuxt.js starter template with Shadcn's recommended setup",
+  "version": "0.0.2",
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -25,5 +27,22 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "shadcn",
+    "shadcn-nuxt",
+    "starter",
+    "template",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damourChris/shadcn-nuxt-starter.git"
   }
 }
